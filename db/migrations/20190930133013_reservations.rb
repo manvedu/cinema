@@ -1,6 +1,6 @@
 Sequel.migration do
   change do
-    create_table(:movies) do
+    create_table(:reservations) do
       primary_key :id
       foreign_key :showtime_id, :showtimes
       Integer :identity_number, :null => false
