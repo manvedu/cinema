@@ -2,7 +2,7 @@ source :rubygems
 gem 'sequel'
 #gem 'sinatra-sequel'
 #gem 'sqlite3'
-gem 'grape', '~> 0.14.0'
+gem 'grape', '~> 1.1.0'
 gem 'rake', '~> 11.2', '>= 11.2.2'
 gem 'dotenv'
 gem 'rack', '~> 1.6', '>= 1.6.4'
