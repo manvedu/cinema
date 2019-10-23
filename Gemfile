@@ -1,4 +1,5 @@
 source :rubygems
+ruby '2.5.1'
 gem 'sequel'
 #gem 'sinatra-sequel'
 #gem 'sqlite3'

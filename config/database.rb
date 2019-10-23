@@ -11,8 +11,6 @@ Dotenv.load
 # Establish the database connection; or, omit this and use the DATABASE_URL
 # environment variable as the connection string:
 #DB = Sequel.sqlite('/tmp/test.db')
-puts "db "*100
-puts ENV.fetch('DATABASE_NAME')
 #DB = Sequel.connect(adapter: :postgres, database: ENV.fetch('DATABASE_NAME'), host: 'localhost')
 Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/cinema_development')
 DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/cinema_development')

@@ -102,5 +102,8 @@ DEPENDENCIES
   shoulda-matchers
   timecop
 
+RUBY VERSION
+   ruby 2.5.1p57
+
 BUNDLED WITH
    2.0.1
