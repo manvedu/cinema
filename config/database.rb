@@ -13,8 +13,9 @@ Dotenv.load
 #DB = Sequel.sqlite('/tmp/test.db')
 puts "db "*100
 puts ENV.fetch('DATABASE_NAME')
-DB = Sequel.connect(adapter: :postgres, database: ENV.fetch('DATABASE_NAME'), host: 'localhost')
+#DB = Sequel.connect(adapter: :postgres, database: ENV.fetch('DATABASE_NAME'), host: 'localhost')
 Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/cinema_development')
+DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/cinema_development')
 #    DB = Sequel.connect(adapter: :postgres, database: 'cinema_development', host: 'localhost')
 Sequel::Model.plugin :timestamps
 #set :database, 'sqlite://test.db'
