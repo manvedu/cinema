@@ -48,7 +48,7 @@ GEM
     pry-byebug (3.7.0)
       byebug (~> 11.0)
       pry (~> 0.10)
-    rack (1.6.11)
+    rack (1.6.12)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-mount (0.8.3)
@@ -92,7 +92,7 @@ DEPENDENCIES
   grape (~> 0.14.0)
   pg
   pry-byebug
-  rack (~> 1.6, >= 1.6.4)
+  rack (~> 1.6)
   rack-test
   rake (~> 11.2, >= 11.2.2)
   rspec
